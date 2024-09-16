@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.carousel-item p {
+    margin: 5px 0;
+    color: #666;
+}
